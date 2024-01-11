@@ -1,5 +1,7 @@
 # main.tf
 
+#this section uses a vpc module 
+
 module "vpc" {
   source = "./vpc"
 }
